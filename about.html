@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<!-- Allows adaptive design from PureCSS framework and compatible with IE -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="adapted from PureCSS -- adaptive style template."/>
+    <title>CenterCityScience</title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<!--<![endif]-->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+<head>
+  <!-- Load jquery library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+  <!-- Load Google Charts visualizations library -->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <!-- Load Leaflet Mapping visualizations library -->
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <!-- Load Esri Leaflet library from CDN -->
+  <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.4/esri-leaflet.js"></script>
+  <!-- Include Leaflet.heat via rawgit.com, do not use in production -->
+<script src="https://rawgit.com/Leaflet/Leaflet.heat/gh-pages/dist/leaflet-heat.js"></script>
+
+<!-- Load Heatmap Feature Layer from CDN -->
+<script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-heatmap-feature-layer/1.0.0-rc.1/esri-leaflet-heatmap-feature-layer.js"></script>
+
+  <!-- Load custom script -->
+  <script src="./script.js"></script>
+
+  <!-- Stylesheets to allow PureCSS styling, Leaflet map styling, Google Fonts, and custom-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">  
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!-- Header allows other sections to roll over -->
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+      <ul>
+          <li><a href='index.html'>CenterCityScience</a><li>
+      </ul>
+    </div>
+</div>
+
+
+<div class="splash-container">
+    <div class="splash">
+        <p class="splash-subhead" style="font-weight: bold; text-shadow: 3px 3px 10px black">
+            This site was created as an entry for the OpenDataPhilly <a href='http://www.opendataphilly.org/'>OpenDataPhilly</a> Visualization Contest, hosted by 
+        </p>
+       
+    </div>
+</div>

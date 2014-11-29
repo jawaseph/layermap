@@ -1,20 +1,53 @@
-#map { height: 500px; }
-
-body { background-color: white; }
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 960px;
+#map { height: 650px; max-width: 100%;
 }
+
+body { background-color: white;  overflow-y:scroll; }
+
+
+#basemaps-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+  }
+#basemaps {
+    margin-bottom: 5px;
+  }
+
+#phillylayers-wrapper {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+  }
+
+#phillylayers {
+    margin-bottom: 5px;
+  }
+
+.testdiv {
+  visibility: hidden;
+}
+
 
 text {
-  font: 10px sans-serif;
+  font: 12px sans-serif;
 }
 
-form {
-  position: absolute;
-  right: 10px;
-  top: 10px;
+
+
+.chart rect {
+  fill: steelblue;
 }
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+
